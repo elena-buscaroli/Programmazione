@@ -5,9 +5,8 @@
     La media è calcolata come 1/N * \sum(x_i), per i=1,...,N
 */
 
+int main()
+{
 
-int main() {
-
-    
     return 0;
 }
