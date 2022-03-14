@@ -9,6 +9,10 @@ int potenza(int base, int esponente)
 {
 }
 
+int potenza_ric(int base, int esponente)
+{
+}
+
 int main()
 {
 
