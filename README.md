@@ -12,3 +12,4 @@ Esercizi e soluzioni per il corso di Progammazione del CdS triennale in Matemati
 
 - Per ogni macro-argomento verrà caricata una cartella di esercizi:
     - `Esercizi1`: esercizi su istruzioni condizionali e iterative.
+    - `Esercizi2`: esercizi su funzioni ricorsive e non.
