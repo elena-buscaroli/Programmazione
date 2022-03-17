@@ -28,9 +28,31 @@ int F (int n)
 }
 
 
+/*
+    Funzione per calcolare l'n-esimo elemento
+    della successione di Fibonacci.
+    Soluzione iterativa.
+*/
+int fib_it(int n) 
+{
+    int f_i_2 = 0; // valore della sequenza all'indice i-2
+    int f_i_1 = 1; // valore della sequenza all'indice i-1
+
+    int f_i; // valore della sequenza all'indice i
+    for (int i=2; i <= n; i++) {
+        f_i = f_i_2 + f_i_1; // f_i è uguale alla somma dei due elementi precedenti
+        f_i_2 = f_i_1; // aggiorno il valore all'indice i-2
+        f_i_1 = f_i; // aggiorno il valore all'indice i-1
+    }
+
+    return f_i;
+}
+
+
 int main(void) 
 {
     int n = 12;
     printf("fib:%d\n", fib(n));
     printf("fib:%d\n", F(n));
+    printf("fib:%d\n", fib_it(n));
 }

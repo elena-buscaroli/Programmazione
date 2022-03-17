@@ -7,11 +7,13 @@
         - step ricorsivo: a(n+1)=b_n, b(n+1) è il resto della divisione a_n/b_n.
 */
 
-int mcd(int a, int b)
-{
+
+int MCD(int a, int b)
+{   
 }
 
 int main()
 {
+
     return 0;
 }
