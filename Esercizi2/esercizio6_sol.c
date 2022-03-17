@@ -13,18 +13,11 @@
 /* Soluzione svolte a lezioni */
 int fib (int n)
 {
-    if (n==0) 
+    if (n==0) // l'elemento a indice n=0 è uguale a 0 per definizione
         return 0;
-    if (n==1) 
+    if (n==1) // l'elemento a indice n=1 è uguale a 1 per definizione
         return 1;
-    return fib(n-1) + fib(n-2);
-}
-
-int F (int n)
-{
-  if (n==0) return 0;
-  if (n==1) return 1;
-  return F(n-1) + F(n-2);
+    return fib(n-1) + fib(n-2); // // l'elemento a indice n=n è uguale alla somma dei due elementi precedenti
 }
 
 
@@ -53,6 +46,5 @@ int main(void)
 {
     int n = 12;
     printf("fib:%d\n", fib(n));
-    printf("fib:%d\n", F(n));
-    printf("fib:%d\n", fib_it(n));
+    printf("fib iterativo:%d\n", fib_it(n));
 }

@@ -9,21 +9,12 @@
     Per calcolare la radice quadrata, si può utilizzare la funzione sqrt della libreria math.h.
 */
 
-double distanza_cartesiana(double x1, double y1, double x2, double y2)
+float distanza_cartesiana(float x1, float y1, float x2, float y2)
 {
-    double d = sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1));
-    return d;
-    // possiamo anche fare direttamente 
-    // return sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1));
+    
 }
 
 int main()
 {
-    double x1, x2, y1, y2;
-    scanf("%f", &x1);
-    scanf("%f", &x2);
-    scanf("%f", &y1);
-    scanf("%f", &y2);
-    printf("d=%f");
     return 0;
 }
