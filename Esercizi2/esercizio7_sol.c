@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+/*
+    Scrivere una funzione ricorsiva che riceva in input due numeri naturali a e b,
+    ne calcoli l’MCD, seguendo la successione di ricorrenza:
+        - passo base: a_0=a, b_0=b
+        - step ricorsivo: a(n+1)=b_n, b(n+1) è il resto della divisione a_n/b_n.
+*/
+
+int mcd(int a, int b)
+{
+    if (b != 0)
+    {
+        return mcd(b, a % b);
+    }
+    else
+    {
+        return a;
+    }
+}
+
+int main()
+{
+    int a, b;
+    printf("Inserire due interi positivi: ");
+    scanf("%d", &a);
+    scanf("%d", &b);
+
+    int MCD = mcd(a, b);
+    printf("M.C.D. di %d e %d: %d\n", a, b, MCD);
+
+    return 0;
+}
