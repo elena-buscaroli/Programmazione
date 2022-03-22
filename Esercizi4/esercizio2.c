@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
-    Letti in input due array A e B, rispettivamente di n ed m elementi, stampa tutti gli elementi presenti in B, ma non in A.
+    Letti in input due array A e B, rispettivamente di n ed m elementi, scrivere una funzione che stampi tutti gli elementi presenti in B, ma non in A.
 */
 
 int main()
