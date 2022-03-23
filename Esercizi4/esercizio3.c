@@ -6,6 +6,8 @@
     Il prodotto scalare e definito come: A*B=sum(A[i]*B[i]), con i=1,...,N.
 */
 
+
+
 int main()
 {
     return 0;
