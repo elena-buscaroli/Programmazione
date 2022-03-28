@@ -8,10 +8,6 @@
     Nota: per calcolare il resto della divisione tra due numeri a e b -> resto = a%b
 */
 
-int fill_primes(int primes[])
-{
-
-}
 
 int main()
 {
