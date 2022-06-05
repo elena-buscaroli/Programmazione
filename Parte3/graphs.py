@@ -1,7 +1,7 @@
 from cmath import inf
 
 
-class Node():
+class node():
     def __init__(self, idx, dist=0, pred=None, color="white"):
         self.idx = idx
         self.dist = dist
@@ -9,7 +9,7 @@ class Node():
         self.color = color
 
 
-class Graph():
+class graph():
     def __init__(self, E=list(), V=list(), directed=False, weighted=False):
         self.directed = directed  # Boolean che indica se il grafo è orientato o no
         self.weighted = weighted
